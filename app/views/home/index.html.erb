@@ -1,0 +1,272 @@
+<!-- Navigation -->
+<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+<nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+        <li class="sidebar-brand">
+            <a href="#top" onclick='$("#menu-close").click();'>Jlmartistry</a>
+        </li>
+        <li>
+            <a href="#top" onclick='$("#menu-close").click();'>Home</a>
+        </li>
+        <li>
+            <a href="#about" onclick='$("#menu-close").click();'>About</a>
+        </li>
+        <li>
+            <a href="#services" onclick='$("#menu-close").click();'>Services</a>
+        </li>
+        <li>
+            <a href="#portfolio" onclick='$("#menu-close").click();'>Portfolio</a>
+        </li>
+        <li>
+            <a href="#contact" onclick='$("#menu-close").click();'>Contact</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- Header -->
+<header id="top" class="header">
+    <div class="text-vertical-center">
+        <h1>Jlmartistry</h1>
+        <h3>Jeff Miles Artwork</h3>
+        <br>
+        <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+    </div>
+</header>
+
+<!-- About -->
+<section id="about" class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>"The artist must possess the courageous soul that dares and defies."</h2>
+                <p class="lead">-Kate Chopin</p>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+
+<!-- Callout -->
+<aside class="callout">
+    <div class="text-vertical-center">
+        <h1>About Me</h1>
+    </div>
+</aside>
+<!-- Services -->
+<!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+<section id="services" class="services bg-primary">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-10 col-lg-offset-1">
+                <h2>Jeff Miles</h2>
+                <hr class="small">
+                <div class="row">
+                    <p>
+                      Welcome to my portfolio! My name is Jeff Miles and I am a young painter that is passionate about art and how it allows us to express our emotions, concepts, mindsets, and opinions. I have been drawing since I was a toddler, using mostly graphite, charcoals, and pastels. I started out at a young age drawing cartoons, tattoo designs and familiar figures such as portraits of close friends or celebrities. As I grew older I started to draw out concepts that somehow went from my mind, flowed through my fingers to the paper. It was at this point that I started to understand what art really was.
+                    </p>
+                    <p>
+                      It was not until my second year of college that I picked up a paintbrush for the first time. It took a while to get used to but oil paints have become my favorite and primary medium. The flexibility of the paint acts as therapy for my mind and allows me to express myself in a different way than graphite did. You’ll notice that most of my paintings will either be based off of social issues or how I view everyday life.  I quickly noticed that drawing things to customers’ requests didn’t feel like art. It was the creation of my own art that made me love art so much. I have become so connected to my paintings that I have officially stopped accepting outside requests. In other words, I am no longer drawing or paintings portraits, tattoo designs, or any other drawings for customers.
+                    </p>
+                    <p>
+                      All of the paintings that you see on this website are on sale and can be shipped to your current location. If you are interested in purchasing a painting, you can contact me through my email which you can find on my contact page.
+                    </p>
+                </div>
+                <!-- /.row (nested) -->
+            </div>
+            <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+
+
+<!-- Portfolio -->
+<section id="portfolio" class="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <h2>Royalty Series</h2>
+                <hr class="small">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="portfolio-item">
+                            <a href="#" data-toggle="modal" data-target="#kingOfDiamonds">
+                                <%= image_tag("kingofdiamonds.jpg", class:"img-portfolio img-responsive") %>
+                            </a>
+                        </div>
+                        <div class="modal fade" id="kingOfDiamonds" tabindex="-1" role="dialog" aria-labelledby="kingOfDiamondsLabel">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                              <h4 class="modal-title" id="kingOfDiamondsLabel">King Of Diamonds</h4>
+                            </div>
+                            <div class="modal-body">
+                              <%= image_tag("kingofdiamonds.jpg") %>
+                              <h4>Royalty Series: King of Diamonds (18 x 24, oil on canvass) </h4>
+                              <b>SOLD</b>
+                              <br>
+                              <p>  Usually when we look at playing cards the most valuable cards are the kings and queens. The problem is that the culture represented as those kings and queens are always the same. Royalty is a series of playing cards that have representative figures from various cultures in those valued position. Though these cultures are not usually considered when the topic of royalty comes up, it is important to understand that every culture is equally valuable. There is no one specific culture that is better than the rest.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="portfolio-item">
+                            <a href="#" data-toggle="modal" data-target="#queenOfHearts">
+                                <%= image_tag("queenofhearts.jpg", class:"img-portfolio img-responsive") %>
+                            </a>
+                        </div>
+                        <div class="modal fade" id="queenOfHearts" tabindex="-1" role="dialog" aria-labelledby="queenOfHeartsLabel">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                              <h4 class="modal-title" id="queenOfHeartsLabel">Queen Of Hearts</h4>
+                            </div>
+                            <div class="modal-body">
+                              <%= image_tag("queenofhearts.jpg") %>
+                              <h4>Royalty Series: Queen of Hearts  (18 x 24, oil on canvas) </h4>
+                              <b>SOLD</b>
+                              <br>
+                              <p>  Usually when we look at playing cards the most valuable cards are the kings and queens. The problem is that the culture represented as those kings and queens are always the same. Royalty is a series of playing cards that have representative figures from various cultures in those valued position. Though these cultures are not usually considered when the topic of royalty comes up, it is important to understand that every culture is equally valuable. There is no one specific culture that is better than the rest.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="portfolio-item">
+                            <a href="#" data-toggle="modal" data-target="#kingOfSpades">
+                                <%= image_tag("kingofspades.jpg", class:"img-portfolio img-responsive") %>
+                            </a>
+                        </div>
+                        <div class="modal fade" id="kingOfSpades" tabindex="-1" role="dialog" aria-labelledby="kingOfSpadesLabel">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                              <h4 class="modal-title" id="kingOfSpadesLabel">King Of Spades</h4>
+                            </div>
+                            <div class="modal-body">
+                              <%= image_tag("kingofspades.jpg") %>
+                              <h4>Royalty Series: King of Spades (18 x 24, oil on canvass) </h4>
+                              <b>SOLD</b>
+                              <br>
+                              <p>  Usually when we look at playing cards the most valuable cards are the kings and queens. The problem is that the culture represented as those kings and queens are always the same. Royalty is a series of playing cards that have representative figures from various cultures in those valued position. Though these cultures are not usually considered when the topic of royalty comes up, it is important to understand that every culture is equally valuable. There is no one specific culture that is better than the rest.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="portfolio-item">
+                          <a href="#" data-toggle="modal" data-target="#queenOfClubs">
+                              <%= image_tag("queenofclubs.jpg", class:"img-portfolio img-responsive") %>
+                          </a>
+                      </div>
+                      <div class="modal fade" id="queenOfClubs" tabindex="-1" role="dialog" aria-labelledby="queenOfClubsLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="queenOfClubsLabel">Queen Of Clubs</h4>
+                          </div>
+                          <div class="modal-body">
+                            <%= image_tag("queenofhearts.jpg") %>
+                            <h4>Royalty Series: Queen of Clubs  (18 x 24, oil on canvas) </h4>
+                            <b>SOLD</b>
+                            <br>
+                            <p>  Usually when we look at playing cards the most valuable cards are the kings and queens. The problem is that the culture represented as those kings and queens are always the same. Royalty is a series of playing cards that have representative figures from various cultures in those valued position. Though these cultures are not usually considered when the topic of royalty comes up, it is important to understand that every culture is equally valuable. There is no one specific culture that is better than the rest.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+            <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+
+<!-- Call to Action
+<aside class="call-to-action bg-primary">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3>The buttons below are impossible to resist.</h3>
+                <a href="#" class="btn btn-lg btn-light">Click Me!</a>
+                <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+            </div>
+        </div>
+    </div>
+</aside>
+-->
+<!-- Map
+<section id="contact" class="map">
+    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+    <br />
+    <small>
+        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+    </small>
+    </iframe>
+</section>
+-->
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+              <h2>Contact Me</h2>
+              <hr class="small">
+                <p>If you have any questions or would like to purchase a painting feel free you email me. If you have a question put “JLMArtistry Question” in the subject box.
+                </p>
+                <p> If you have a purchase request put “JLMArtistry Purchase Request” in the subject box.</p>
+                <ul class="list-unstyled">
+                    <li><br></li>
+                    <li><i class="fa fa-phone fa-fw"></i> (301) 254-9511</li>
+                    <li><br></li>
+                    <li><i class="fa fa-envelope-o fa-fw"></i> <a style="color:white" href="mailto:jeff2miles@gmail.com">jeff2miles@gmail.com</a>
+                    </li>
+                </ul>
+                <br>
+                <ul class="list-inline">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                    </li>
+                </ul>
+                <hr class="small">
+                <!--<p class="text-muted">Copyright &copy; Your Website 2014</p>-->
+            </div>
+        </div>
+    </div>
+    <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+</footer>
