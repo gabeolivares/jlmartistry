@@ -182,6 +182,11 @@
  }
 
  /* About */
+ #about-me-container{
+   width:60%;
+   text-align: center;
+   margin:0 auto;
+ }
 
  .about {
      padding: 50px 0;
@@ -189,12 +194,29 @@
 
  /* Services */
 
- .services {
+ .services-content {
      padding: 50px 0;
+
+ }
+
+ .active-nav{
+   box-shadow: 5px 5px 5px #888888;
+   color: #ff0000;
  }
 
  .service-item {
      margin-bottom: 30px;
+ }
+
+ #contact-container{
+   width:60%;
+   text-align: center;
+   margin:0 auto;
+ }
+
+ .contact-content{
+   box-shadow: 18px 15px 5px #888888;
+   padding: 50px 0;
  }
 
  /* Callout */

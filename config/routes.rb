@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  #home
+  get 'homepage', to: 'homepage#index'
   #Contact
   get 'contact', to: 'contact#index'
 

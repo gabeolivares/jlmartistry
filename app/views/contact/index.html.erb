@@ -1,39 +1,42 @@
 <ul class="navv">
+  <li><%= link_to 'Home', homepage_path %></li>
   <li><%= link_to 'About', about_path %></li>
   <li><%= link_to 'Gallery', gallery_path %></li>
-  <li><%= link_to 'Contact', contact_path %></li>
+  <li class="active-nav"><%= link_to 'Contact', contact_path %></li>
 </ul>
-<section id="contact" class="contact bg-primary">
-  <div class="container">
-      <div class="row">
-          <div class="col-lg-10 col-lg-offset-1 text-center">
-            <h2>Contact Me</h2>
-            <hr class="small">
-              <p>If you have any questions or would like to purchase a painting feel free you email me. If you have a question put “JLMArtistry Question” in the subject box.
-              </p>
-              <p> If you have a purchase request put themilescollective Purchase Request” in the subject box.</p>
-              <ul class="list-unstyled">
-                  <li><br></li>
-                  <li><i class="fa fa-phone fa-fw"></i> (301) 254-9511</li>
-                  <li><br></li>
-                  <li><i class="fa fa-envelope-o fa-fw"></i> <a style="color:white" href="mailto:jeff2miles@gmail.com">jeff2miles@gmail.com</a>
-                  </li>
-              </ul>
-              <br>
-              <ul class="list-inline">
-                  <li>
-                      <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                  </li>
-                  <li>
-                      <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                  </li>
-                  <li>
-                      <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                  </li>
-              </ul>
+<div id="contact-container">
+  <section id="contact" class="">
+    <div class="contact-content">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+              <h2>Contact Me</h2>
               <hr class="small">
-              <!--<p class="text-muted">Copyright &copy; Your Website 2014</p>-->
-          </div>
-      </div>
-  </div>
-</section>
+                <p>If you have any questions or would like to purchase a painting feel free you email me. If you have a question put “JLMArtistry Question” in the subject box.
+                </p>
+                <p> If you have a purchase request put themilescollective Purchase Request” in the subject box.</p>
+                <ul class="list-unstyled">
+                    <li><br></li>
+                    <li><i class="fa fa-phone fa-fw"></i> (301) 254-9511</li>
+                    <li><br></li>
+                    <li><i class="fa fa-envelope-o fa-fw"></i> <a style="color:white" href="mailto:jeff2miles@gmail.com">jeff2miles@gmail.com</a>
+                    </li>
+                </ul>
+                <br>
+                <ul class="list-inline">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                    </li>
+                </ul>
+                <hr class="small">
+                <!--<p class="text-muted">Copyright &copy; Your Website 2014</p>-->
+            </div>
+        </div>
+    </div>
+  </section>
+</div>
