@@ -7,6 +7,26 @@
         <h1>themilescollective</h1>
         <h3>Jeff Miles Artwork</h3>
         <br>
-        <%= link_to 'Continue to Website', homepage_path, class:"btn btn-dark btn-lg" %>
     </div>
 </header>
+<nav class="navbar navbar-inverse navbar-fixed-bottom"role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+      <li class="active"><%= link_to 'Home', home_index_path %></li>
+      <li><%= link_to 'About', about_path %></li>
+      <li><%= link_to 'Gallery', gallery_path %></li>
+      <li><%= link_to 'Contact', contact_path %></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>

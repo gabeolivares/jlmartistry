@@ -1,8 +1,29 @@
+<nav class="navbar navbar-inverse navbar-fixed-bottom"role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+      <li><%= link_to 'Home', home_index_path %></li>
+      <li class="active"><%= link_to 'About', about_path %></li>
+      <li><%= link_to 'Gallery', gallery_path %></li>
+      <li><%= link_to 'Contact', contact_path %></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
+
 <ul class="navv">
-  <li><%= link_to 'Home', homepage_path %></li>
-  <li class="active-nav"><%= link_to 'About', about_path %></li>
-  <li><%= link_to 'Gallery', gallery_path %></li>
-  <li><%= link_to 'Contact', contact_path %></li>
+  <div style="font-family: 'Ubuntu', sans-serif;">
+      <h2>About</h2>
+  </div>
 </ul>
 <div id="about-me-container">
   <!-- Callout -->
@@ -19,7 +40,7 @@
               <div class="col-lg-10 col-lg-offset-1">
                   <h2>Jeff Miles</h2>
                   <hr class="small">
-                  <div class="row">
+                  <div class="row" style="padding-bottom:15%">
                       <p>
                         Welcome to my portfolio! My name is Jeff Miles and I am a young painter that is passionate about art and how it allows us to express our emotions, concepts, mindsets, and opinions. I have been drawing since I was a toddler, using mostly graphite, charcoals, and pastels. I started out at a young age drawing cartoons, tattoo designs and familiar figures such as portraits of close friends or celebrities. As I grew older I started to draw out concepts that somehow went from my mind, flowed through my fingers to the paper. It was at this point that I started to understand what art really was.
                       </p>
@@ -29,6 +50,8 @@
                       <p>
                         All of the paintings that you see on this website are on sale and can be shipped to your current location. If you are interested in purchasing a painting, you can contact me through my email which you can find on my contact page.
                       </p>
+                      <br>
+                      <br>
                   </div>
                   <!-- /.row (nested) -->
               </div>
@@ -38,4 +61,5 @@
       </div>
       <!-- /.container -->
   </section>
+
 </div>
