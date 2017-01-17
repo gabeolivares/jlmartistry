@@ -173,13 +173,15 @@
      display: table;
      position: relative;
      width: 100%;
-     height: 100%;
-     background: image-url("bg1.jpg") no-repeat center center scroll;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     background-size: cover;
-     -o-background-size: cover;
- }
+     height: 90%;
+     background: image-url("bg1.png");
+     background-size: cover; /* or contain depending on what you want */
+     background-position: center center;
+     background-repeat: no-repeat;
+     text-align:center;
+     margin:auto;
+     padding:0;
+}
 
  /* About */
  #about-me-container{
@@ -327,4 +329,18 @@
     line-height: 20px;
     padding-top: 10px;
     padding-bottom: 10px;}
+
+    .header {
+        display: table;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: image-url("bg1.png");
+        background-size: cover; /* or contain depending on what you want */
+        background-position: center center;
+        background-repeat: no-repeat;
+        text-align:center;
+        margin:auto;
+        padding:0;
+   }
 }
