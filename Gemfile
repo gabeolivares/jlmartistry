@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.2'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
+gem 'sqlite3', '~> 1.3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -36,7 +37,7 @@ gem 'fancybox2-rails', '~> 0.2.8'
 gem 'bootstrap-sass', '~> 3.3.6'
 
 group :development, :test do
-  gem 'pg'
+  gem 'pg', '~> 0.18'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
