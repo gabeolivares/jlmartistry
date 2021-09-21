@@ -1,2 +1,2 @@
-Website for client Jeff Miles - Art Website -UNACTIVE 
+Website for client Jeff Miles - Art Website -INACTIVE 
 Description - ROR Website using javascript to display artwork by artist Jeff Miles 
